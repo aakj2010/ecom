@@ -10,6 +10,6 @@ function Card({ item, handleAddToCart }) {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 export default Card;
