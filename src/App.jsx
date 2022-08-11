@@ -55,7 +55,7 @@ function App() {
           <div className="row">
             {
               products.map((item) => {
-                return <Card item={item} handleAddToCart={addToCart}></Card>
+                return <Card item={item} cartItems={cart} handleAddToCart={addToCart}></Card>
               })
             }
           </div>
