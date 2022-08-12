@@ -3,33 +3,42 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "./Card";
 import CartItem from './CartItem';
 import { useState } from 'react';
-
 function App() {
   const products = [
     {
       id: 1,
       title: "iPhone",
-      price: 40000
+      currency : "₹.",
+      price: 40000,
+      rating: 4
     },
     {
       id: 2,
       title: "iMac",
-      price: 80000
+      currency : "₹.",
+      price: 80000,
+      rating: 3
     },
     {
       id: 3,
       title: "iWatch",
-      price: 30000
+      currency : "₹.",
+      price: 30000,
+      rating: 5
     },
     {
       id: 4,
       title: "iPad",
-      price: 50000
+      currency : "₹.",
+      price: 50000,
+      rating: 3
     },
     {
       id: 5,
       title: "iPen",
-      price: 20000
+      currency : "₹.",
+      price: 20000,
+      rating: 4
     }
   ];
 
