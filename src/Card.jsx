@@ -1,5 +1,7 @@
 import React from 'react'
-import StarRating from 'star-rating-react';
+// import StarRating from 'star-rating-react';
+import ReactStars from "react-rating-stars-component";
+
 
 function Card({ item, cartItems, handleAddToCart }) {
     return (
@@ -9,11 +11,21 @@ function Card({ item, cartItems, handleAddToCart }) {
                 <div className="card-body">
                     <h5 className="card-title">{item.title}</h5>
                     <div className='card-rating'>
-                        <StarRating
+                        {/* <StarRating
                             size={5}
                             color= "Yellow"
                             value={item.rating}
-                        />
+                        /> */}
+                        {
+                            <ReactStars
+                                count={5}
+                                value={item.rating}
+                                size={30}
+                                edit= {false}
+                                isHalf= {true}
+                                activeColor="#ffd700"
+                            />
+                        }
                     </div>
                     <p className="card-text">{item.currency}{item.price}</p>
 

@@ -5,7 +5,7 @@ function CartItem({ cartItem, removeFromCart }) {
         <div class="fw-bold">{cartItem.title}</div>
         {cartItem.price}
       </div>
-      <button onClick={() => removeFromCart(cartItem)} class="badge bg-primary rounded-pill">Remove</button>
+      <button onClick={() => removeFromCart(cartItem)} class="badge bg-danger rounded-pill">X</button>
     </li>
   );
 }

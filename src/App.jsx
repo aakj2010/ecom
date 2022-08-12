@@ -10,21 +10,21 @@ function App() {
       title: "iPhone",
       currency : "₹.",
       price: 40000,
-      rating: 4
+      rating: 4.5
     },
     {
       id: 2,
       title: "iMac",
       currency : "₹.",
       price: 80000,
-      rating: 3
+      rating: 3.5
     },
     {
       id: 3,
       title: "iWatch",
       currency : "₹.",
       price: 30000,
-      rating: 5
+      rating: 4
     },
     {
       id: 4,
