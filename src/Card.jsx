@@ -9,7 +9,6 @@ function Card({ item, cartItems, handleAddToCart }) {
                 <div className="card-body">
                     <h5 className="card-title">{item.title}</h5>
                     <div className='card-rating'>
-                        {/* {item.rating} */}
                         <StarRating
                             size={5}
                             color= "Yellow"
